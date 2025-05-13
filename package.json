@@ -1,0 +1,40 @@
+{
+	"name": "ad-interior-design.fr",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"dependencies": {
+		"@fontsource/quicksand": "^5.0.18",
+		"@fortawesome/free-brands-svg-icons": "^6.5.2",
+		"@fortawesome/free-solid-svg-icons": "^6.5.2",
+		"@popperjs/core": "^2.11.8",
+		"bootstrap": "^5.3.3",
+		"classnames": "^2.5.1",
+		"masonry-layout": "^4.2.2"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-vercel": "^5.3.0",
+		"@sveltejs/enhanced-img": "^0.2.0",
+		"@sveltejs/kit": "^2.21.0",
+		"@sveltejs/vite-plugin-svelte": "^3.1.0",
+		"eslint": "^9.1.1",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.38.0",
+		"mdsvex": "^0.11.0",
+		"prettier": "^3.2.5",
+		"prettier-plugin-svelte": "^3.2.3",
+		"rehype-external-links": "^3.0.0",
+		"sass": ">=1.75.0 <2.0.0",
+		"super-sitemap": "^0.14.14",
+		"svelte": "^4.2.15",
+		"svelte-fa": "^4.0.2",
+		"vite": ">=5.4.19 <6.0.0"
+	},
+	"type": "module"
+}

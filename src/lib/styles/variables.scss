@@ -1,0 +1,85 @@
+$light: #f4f4f4;
+$dark :#021010;
+$primary: #57804a;
+$secondary: #f9efaa;
+
+$enable-smooth-scroll: false;
+$dropdown-link-hover-bg: $light;
+$font-family-base: Quicksand, sans-serif;
+$headings-margin-bottom: 1rem;
+$input-btn-focus-box-shadow: none;
+$link-color: #46a140;
+$link-decoration: none;
+$navbar-brand-padding-y: 0;
+$navbar-height: 64px;
+$navbar-light-toggler-border-color: transparent;
+$navbar-toggler-focus-width: 0;
+$offcanvas-bg-color: $primary;
+
+$aspect-ratios: (
+	'1x1': 100%,
+	'16x9': calc(100% * (1 / (16 / 9))),
+	'9x16': calc(100% * (1 / (9 / 16)))
+);
+
+// Configuration
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/variables-dark';
+
+$font-sizes: map-merge(
+	$font-sizes,
+	(
+		'n1': $font-size-sm
+	)
+);
+
+$theme-colors: map-merge(
+	$theme-colors,
+	(
+		'cannes': #b49791,
+		'section': #eaefe9,
+		'la-colle-sur-loup': #362c20,
+		'la-gaude': #8a98a5,
+		'la-valette-du-var' : #568049,
+		'lyon': #824d30,
+		'grasse': #8a6651,
+		'normandie': #928871,
+		'paris': #604c38,
+		'rueil-malmaison-garcon': #1d2533,
+		'rueil-malmaison-fille': #9c827a,
+		'rueil-malmaison-salon': #593626,
+		'vidauban': #a08459,
+		'vire': #6a4743
+	)
+);
+
+@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/mixins/breakpoints';
+
+$utilities: (
+	'width': (
+		property: width,
+		responsive: true,
+		class: w,
+		values: (
+			25: 25%,
+			50: 50%,
+			75: 75%,
+			100: 100%,
+			auto: auto
+		)
+	),
+	'height': (
+		property: height,
+		responsive: true,
+		class: h,
+		values: (
+			25: 25%,
+			50: 50%,
+			75: 75%,
+			100: 100%,
+			auto: auto
+		)
+	)
+);
